@@ -23,6 +23,11 @@ mvn site:site
 mvn javadoc:javadoc
 ```
 
+## Ejecutar la GUI (Escritorio Swing)
+```bash
+mvn exec:java
+```
+
 ## Ejecutar la CLI
 ```bash
 mvn exec:java -Dexec.mainClass=com.aerolineavs.tarifas.App
